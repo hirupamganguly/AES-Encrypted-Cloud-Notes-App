@@ -3,7 +3,10 @@
 
 <img src="assets/cloudNotesDemoVideo.gif">
 
-| <img src="assets/PicsArt_12-30-03.08.49.jpg">    | <img src="assets/PicsArt_12-30-06.26.30.jpg"> | <img src="assets/Screenshot_20201231-085835.png"> |
+|         |            |   |
+| ------------- |:-------------:| -----:|
+| <img src="assets/PicsArt_12-30-03.08.49.jpg">      | <img src="assets/PicsArt_12-30-06.26.30.jpg"> | <img src="assets/Screenshot_20201231-085835.png"> |
+
 
 ## Learning Process - Small Projects
 
