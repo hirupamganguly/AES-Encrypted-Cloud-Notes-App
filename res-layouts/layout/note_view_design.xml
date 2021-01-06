@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5sp"
+
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="3sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/title_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="@color/black"
+                android:maxHeight="60sp"
+                android:padding="10sp"
+
+                android:text="TextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextView"
+                android:textAlignment="center"
+                android:textColor="#FEFAFA"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/delete_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:minWidth="20sp"
+                android:minHeight="20sp"
+                app:srcCompat="@drawable/ic_baseline_delete_forever_24"
+                app:tint="#FFFFFF" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/content_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_bottom"
+            android:maxHeight="280sp"
+            android:padding="10sp"
+            android:text=" TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView  TextView TextView "
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
