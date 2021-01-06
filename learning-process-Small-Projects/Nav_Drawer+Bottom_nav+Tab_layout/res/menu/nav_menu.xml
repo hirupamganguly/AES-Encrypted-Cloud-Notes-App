@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/fg">
+        <item
+            android:icon="@drawable/ic_baseline_group_24"
+            android:id="@+id/nav_new_group"
+            android:title="New Group" />
+        <item
+            android:icon="@drawable/ic_baseline_lock_24"
+            android:id="@+id/nav_secrect_chat"
+            android:title="New Secret Chat" />
+        <item
+            android:icon="@drawable/ic_baseline_fiber_new_24"
+            android:id="@+id/nav_new_channels"
+            android:title="New Channels" />
+        <item
+            android:icon="@drawable/ic_baseline_perm_contact_calendar_24"
+            android:id="@+id/nav_contacts"
+            android:title="Contacts" />
+        <item
+            android:icon="@drawable/ic_baseline_local_phone_24"
+            android:id="@+id/nav_calls"
+            android:title="Calls" />
+        <item
+            android:icon="@drawable/ic_baseline_save_alt_24"
+            android:id="@+id/nav_saved_message"
+            android:title="Saved Messages" />
+        <item
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:id="@+id/nav_settings"
+            android:title="Settings" />
+    </group>
+    <group android:id="@+id/sg">
+        <item
+            android:icon="@drawable/ic_baseline_add_shopping_cart_24"
+            android:id="@+id/nav_invites_friends"
+            android:title="Invite Friends" />
+        <item
+            android:icon="@drawable/ic_baseline_request_quote_24"
+            android:id="@+id/nav_faq"
+            android:title="FAQ" />
+    </group>
+</menu>
